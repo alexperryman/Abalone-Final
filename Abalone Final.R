@@ -9,8 +9,8 @@ library(readxl)
 library(car)
 library(psych)
 library(modelr)
-read_xlsx("C:/Users/alexp/Downloads/Abalone dataset.xlsx")
-abalone <- read_excel("C:/Users/alexp/Downloads/Abalone dataset.xlsx")
+read_xlsx("...")#Add your directory here
+abalone <- read_excel("...") #Add your directory here
 
 #METHODS
 
@@ -229,4 +229,5 @@ nrow(abalone)
 
 summary(model)
 nrow(abalone)
+
 
